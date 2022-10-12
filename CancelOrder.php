@@ -1,6 +1,7 @@
 <?php
 
 session_start();
+include 'Connect.php';
 
 ?>
 <!DOCTYPE html>
@@ -48,10 +49,6 @@ session_start();
         <h1>Cancel a Client's Order</h1>
         <?php
 
-        $servername = "sql1.njit.edu";
-        $username = "zma4";
-        $password = "Z_viper908";
-        $dbname = "zma4";
         $con = mysqli_connect($servername, $username, $password, $dbname);
 
         if (isset($_POST['submit'])) {
