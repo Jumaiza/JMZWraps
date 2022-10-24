@@ -36,11 +36,11 @@ if ($result->num_rows > 0) {
 if ($verified == "true") {
 
   if ($trans == "Search the Stylist's Records") {
-    header("Location: https://web.njit.edu/~zma4/Search.php");
+    header("Location: https://web.njit.edu/~zma4/JMZWrapsBSS/Search.php");
   } else if ($trans == "Search the Stylist's Orders") {
-    header("Location: https://web.njit.edu/~zma4/SearchOrders.php");
+    header("Location: https://web.njit.edu/~zma4/JMZWrapsBSS/SearchOrders.php");
   } else if ($trans == "Book a Client’s Appointment") {
-    header("Location: https://web.njit.edu/~zma4/Book.php");
+    header("Location: https://web.njit.edu/~zma4/JMZWrapsBSS/Book.php");
   } else if ($trans == "Place a Client’s Order") {
     echo "
       <script>
@@ -55,13 +55,13 @@ if ($verified == "true") {
       ";
     //header("Location: https://web.njit.edu/~zma4/Place.php");
   } else if ($trans == "Update a Client's Order") {
-    header("Location: https://web.njit.edu/~zma4/Update.php");
+    header("Location: https://web.njit.edu/~zma4/JMZWrapsBSS/Update.php");
   } else if ($trans == "Cancel a Client's Appointemnt") {
-    header("Location: https://web.njit.edu/~zma4/Cancel.php");
+    header("Location: https://web.njit.edu/~zma4/JMZWrapsBSS/Cancel.php");
   } else if ($trans == "Cancel a Client's Order") {
-    header("Location: https://web.njit.edu/~zma4/CancelOrder.php");
+    header("Location: https://web.njit.edu/~zma4/JMZWrapsBSS/CancelOrder.php");
   } else if ($trans == "Create a Client's Account") {
-    header("Location: https://web.njit.edu/~zma4/Create.php");
+    header("Location: https://web.njit.edu/~zma4/JMZWrapsBSS/Create.php");
   }
 } else {
   echo "<script>
